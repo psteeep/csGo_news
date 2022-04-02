@@ -41,13 +41,16 @@ form {
     width: 500px;
     margin-top: 50px;
 }
-
+.flex-wrapper{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 footer {
-    clear: both;
-    position: relative;
-    margin: 0;
-    padding-top: 0;
-    width: inherit;
-    height: 3.2em;
-    z-index: auto;
+    margin-top: auto;
+}
+
+.navbar-brand{
+    font-family: "Trebuchet MS", Verdana, sans-serif;
 }

@@ -55,7 +55,7 @@ loguru==0.5.3
 MarkupSafe==1.1.1
 matplotlib==3.4.3
 mistune==0.8.4
-mysqlclient @ file:///C:/Users/psepc/mysqlclient-1.4.6-cp39-cp39-win_amd64.whl
+mysqlclient @ file:///C:/Users/psepc/mysqlclient-1.4.6-cp38-cp38-win32.whl
 nbconvert==5.6.1
 nbformat==5.0.4
 notebook==6.0.3

@@ -1,1 +1,1 @@
-web: gunicorn csGo_news.wsgi --log-file -
+waitress-serve --listen=*:8000 csGO_news.wsgi:application

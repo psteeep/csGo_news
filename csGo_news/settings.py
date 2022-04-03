@@ -124,6 +124,8 @@ STATICFILES_DIRS = [
     '/var/www/static/',
 ]
 
+os.makedirs(STATIC_ROOT, exist_ok=True)
+
 import dj_database_url
 
 db_from_env = dj_database_url.config()
